@@ -1,5 +1,5 @@
 # IMAGE FILTERS OPERATIONS
-This directory contains implementations of various image filtering operations using Python and popular libraries such as OpenCV and NumPy. Each operation is encapsulated in its own script, allowing for easy execution and modification.
+This directory contains implementations of various image filtering operations using Python and popular libraries such as OpenCV and NumPy. All operations are encapsulated in one script, allowing for easy execution and modification.
 
 ## Available Operations
 - **Grayscale Conversion**: Convert a color image to grayscale.
