@@ -31,11 +31,13 @@ sobel_x_res = cv2.filter2D(img,-1,sobel_x)
 sobel_y_res = cv2.filter2D(img,-1,sobel_y)
 sobel_res = cv2.magnitude(sobel_x_res.astype(np.float32),sobel_y_res.astype(np.float32))
 
+
 prewitt_x_res = cv2.filter2D(img,-1,prewitt_x)
 prewitt_y_res = cv2.filter2D(img, -1, prewitt_y)
 prewitt_res = cv2.magnitude(prewitt_x_res.astype(np.float32), prewitt_y_res.astype(np.float32))
 
 laplacian_res = cv2.filter2D(img,-1, laplacian)
+
 
 # Show the results
 plt.figure(figsize=(12,8))
